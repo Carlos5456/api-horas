@@ -1,0 +1,16 @@
+{
+  "name": "api-horas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api-horas/index.js"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "express": "^5.1.0"
+  },
+  "description": "Esta API recebe dados de uma viagem com trechos e calcula automaticamente os horários de **saída e chegada** de cada trecho com base no horário de expediente, tempo de almoço e regras como **ignorar domingos**.",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
