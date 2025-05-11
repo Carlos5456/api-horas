@@ -4,7 +4,7 @@ const dayjs = require('dayjs');
 const duration = require('dayjs/plugin/duration');
 const isSameOrAfter = require('dayjs/plugin/isSameOrAfter');
 const utc = require('dayjs/plugin/utc');
-const verificarIps = require('./middleware/verificarIps');
+const verificarIps = require('./verificarIps');
 const { calcularViagens } = require('./calculos');
 
 dayjs.extend(duration);
